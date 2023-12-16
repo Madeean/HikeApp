@@ -11,6 +11,9 @@
 		80F13A2F2B2DF3D400A69EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F13A2E2B2DF3D400A69EC2 /* ContentView.swift */; };
 		80F13A312B2DF3D500A69EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F13A302B2DF3D500A69EC2 /* Assets.xcassets */; };
 		80F13A342B2DF3D500A69EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F13A332B2DF3D500A69EC2 /* Preview Assets.xcassets */; };
+		80F13A3B2B2DF5FC00A69EC2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F13A3A2B2DF5FC00A69EC2 /* CardView.swift */; };
+		80F13A3E2B2DF77900A69EC2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F13A3D2B2DF77900A69EC2 /* CustomBackgroundView.swift */; };
+		80F13A412B2DFAFF00A69EC2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F13A402B2DFAFF00A69EC2 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		80F13A2E2B2DF3D400A69EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80F13A302B2DF3D500A69EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F13A332B2DF3D500A69EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80F13A3A2B2DF5FC00A69EC2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		80F13A3D2B2DF77900A69EC2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		80F13A402B2DFAFF00A69EC2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,12 @@
 		80F13A2B2B2DF3D400A69EC2 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				80F13A3F2B2DFADE00A69EC2 /* Utility */,
 				80F13A2C2B2DF3D400A69EC2 /* HikeApp.swift */,
 				80F13A2E2B2DF3D400A69EC2 /* ContentView.swift */,
 				80F13A302B2DF3D500A69EC2 /* Assets.xcassets */,
 				80F13A322B2DF3D500A69EC2 /* Preview Content */,
+				80F13A3C2B2DF75700A69EC2 /* Component */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -65,6 +73,23 @@
 				80F13A332B2DF3D500A69EC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80F13A3C2B2DF75700A69EC2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				80F13A3A2B2DF5FC00A69EC2 /* CardView.swift */,
+				80F13A3D2B2DF77900A69EC2 /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		80F13A3F2B2DFADE00A69EC2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				80F13A402B2DFAFF00A69EC2 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F13A2F2B2DF3D400A69EC2 /* ContentView.swift in Sources */,
+				80F13A3B2B2DF5FC00A69EC2 /* CardView.swift in Sources */,
 				80F13A2D2B2DF3D400A69EC2 /* HikeApp.swift in Sources */,
+				80F13A3E2B2DF77900A69EC2 /* CustomBackgroundView.swift in Sources */,
+				80F13A412B2DFAFF00A69EC2 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
@@ -297,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
