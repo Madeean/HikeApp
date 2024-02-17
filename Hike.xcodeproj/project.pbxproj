@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800281202B80F3C70036F65D /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002811F2B80F3C70036F65D /* CustomListRowView.swift */; };
 		807A61AD2B2EBE2F00E187F2 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A61AC2B2EBE2F00E187F2 /* GradientButtonStyle.swift */; };
 		807A61AF2B2EC29800E187F2 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A61AE2B2EC29800E187F2 /* CustomCircleView.swift */; };
 		807A61B12B2EC3DD00E187F2 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A61B02B2EC3DD00E187F2 /* MotionAnimationView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8002811F2B80F3C70036F65D /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		807A61AC2B2EBE2F00E187F2 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		807A61AE2B2EC29800E187F2 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		807A61B02B2EC3DD00E187F2 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				80F13A422B2E05E800A69EC2 /* CustomButtonView.swift */,
 				807A61AE2B2EC29800E187F2 /* CustomCircleView.swift */,
 				807A61B02B2EC3DD00E187F2 /* MotionAnimationView.swift */,
+				8002811F2B80F3C70036F65D /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				80F13A2F2B2DF3D400A69EC2 /* ContentView.swift in Sources */,
 				807A61AF2B2EC29800E187F2 /* CustomCircleView.swift in Sources */,
+				800281202B80F3C70036F65D /* CustomListRowView.swift in Sources */,
 				80F13A3B2B2DF5FC00A69EC2 /* CardView.swift in Sources */,
 				80F13A2D2B2DF3D400A69EC2 /* HikeApp.swift in Sources */,
 				80F13A432B2E05E800A69EC2 /* CustomButtonView.swift in Sources */,
